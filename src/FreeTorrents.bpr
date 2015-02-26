@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="FreeTorrents.exe"/>
+    <OBJFILES value="FreeTorrents.obj uFtRules.obj uFtServer.obj uFtOptions.obj uFtTorrents.obj 
+      uFtVirtualTorrents.obj uFtTorrentInfo.obj uFtCore.obj uFtFunctions.obj 
+      uFtLogger.obj uFtModuls.obj uFtUpdater.obj uFtTrayIcon.obj uFtVersion.obj 
+      uFormMain.obj uFormProperty.obj uFormEditPath.obj uFormEditRules.obj 
+      uFormEditRule.obj uFormVirtualMgr.obj uFormVirtualTorrent.obj 
+      uFormUpdateAsk.obj uFormAbout.obj uFormEditStr.obj sha1.obj"/>
+    <RESFILES value="FreeTorrents.res myres.res myres.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) uFormMain.dfm uFormProperty.dfm uFormEditPath.dfm 
+      uFormEditRules.dfm uFormEditRule.dfm uFormVirtualMgr.dfm 
+      uFormVirtualTorrent.dfm uFormUpdateAsk.dfm uFormAbout.dfm uFormEditStr.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bdertl.lib dbrtl.lib vclx.lib bcbsmp.lib indy.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib indy.lib bcbsmp.lib vclx.lib dbrtl.lib bdertl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="FreeTorrents.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\include;$(BCB)\include\vcl;iface"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -ID:\Vital\FreeTorrents\FreeTorrents -I$(BCB)\include -I$(BCB)\include\vcl 
+      -Iiface -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="FreeTorrents.res" FORMNAME="" UNITNAME="FreeTorrents.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FreeTorrents.cpp" FORMNAME="" UNITNAME="FreeTorrents" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtRules.cpp" FORMNAME="" UNITNAME="uFtRules" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtServer.cpp" FORMNAME="" UNITNAME="uFtServer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtOptions.cpp" FORMNAME="" UNITNAME="uFtOptions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtTorrents.cpp" FORMNAME="" UNITNAME="uFtTorrents" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtVirtualTorrents.cpp" FORMNAME="" UNITNAME="uFtVirtualTorrents" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtTorrentInfo.cpp" FORMNAME="" UNITNAME="uFtTorrentInfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtCore.cpp" FORMNAME="" UNITNAME="uFtCore" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtFunctions.cpp" FORMNAME="" UNITNAME="uFtFunctions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtLogger.cpp" FORMNAME="" UNITNAME="uFtLogger" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtModuls.cpp" FORMNAME="" UNITNAME="uFtModuls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtUpdater.cpp" FORMNAME="" UNITNAME="uFtUpdater" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtTrayIcon.cpp" FORMNAME="" UNITNAME="uFtTrayIcon" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFtVersion.cpp" FORMNAME="" UNITNAME="uFtVersion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormMain.cpp" FORMNAME="FormMain" UNITNAME="uFormMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormProperty.cpp" FORMNAME="FormProperty" UNITNAME="uFormProperty" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormEditPath.cpp" FORMNAME="FormEditPath" UNITNAME="uFormEditPath" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormEditRules.cpp" FORMNAME="FormEditRules" UNITNAME="uFormEditRules" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormEditRule.cpp" FORMNAME="FormEditRule" UNITNAME="uFormEditRule" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormVirtualMgr.cpp" FORMNAME="FormVirtualMgr" UNITNAME="uFormVirtualMgr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormVirtualTorrent.cpp" FORMNAME="FormVirtualTorrent" UNITNAME="uFormVirtualTorrent" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormUpdateAsk.cpp" FORMNAME="FormUpdateAsk" UNITNAME="uFormUpdateAsk" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormAbout.cpp" FORMNAME="FormAbout" UNITNAME="uFormAbout" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uFormEditStr.cpp" FORMNAME="FormEditStr" UNITNAME="uFormEditStr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sha1.cpp" FORMNAME="" UNITNAME="sha1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myres.rc" FORMNAME="" UNITNAME="myres.rc" CONTAINERID="RCCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myres.res" FORMNAME="" UNITNAME="myres.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=15
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.15
+InternalName=FreeTorrents
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=FreeTorrents.exe
+ProductName=FreeTorrents
+ProductVersion=1.0.0.15
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=C:\Program Files\Borland\CBuilder6\Projects;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\include;$(BCB)\include\vcl;iface
+Item1=C:\Program Files\Borland\CBuilder6\Projects;D:\Vital\FreeTorrents\FreeTorrents;pcre.lib\include;$(BCB)\include;$(BCB)\include\vcl
+Item2=C:\Program Files\Borland\CBuilder6\Projects;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder6\Projects;D:\Vital\FreeTorrents\FreeTorrents;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

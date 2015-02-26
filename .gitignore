@@ -1,0 +1,10 @@
+*.~*
+*.tds
+*.ddp
+*.ftr
+*.ftv
+*.obj
+*.exe
+*.cfg
+logs/
+Updates/
