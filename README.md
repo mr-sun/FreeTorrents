@@ -4,6 +4,8 @@ Platform: Windows XP
 
 Tool: Borland C++ Builder
 
+http://ft.mrsun.ru
+
 --
 
 FreeTorrents - это Windows приложение для корректировки рейтинга (статистики) на любом торрент-трекере.
@@ -20,4 +22,4 @@ FreeTorrents can help you survive on trackers that enforce a minimum 1:1 trading
 
 --
 
-http://ft.mrsun.ru
+
